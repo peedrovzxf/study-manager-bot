@@ -1,7 +1,5 @@
-import { Client, Events, GatewayIntentBits, Partials } from "discord.js";
+import { Client, GatewayIntentBits, Partials } from "discord.js";
 import Config from "./common/config";
-import { readdirSync } from "fs";
-import path from "path";
 
 class Bot {
     private client: Client;
