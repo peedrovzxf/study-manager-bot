@@ -5,7 +5,7 @@ class ClientReadyEvent implements EventInterface {
     public name: string = Events.ClientReady;
     public once: boolean = true;
 
-    public execute: Function = () => {
+    public execute: Function = (): void => {
         console.log(`Study manager bot was turned on, be happy with it!`);
     };
 }
