@@ -18,6 +18,10 @@ class Config {
     public static getClientSecret(): string {
         return process.env.CLIENT_SECRET || "";
     }
+
+    public static getGuildId(): string {
+        return process.env.GUILD_ID || "";
+    }
 }
 
 export default Config;
