@@ -1,5 +1,5 @@
 {
-  "name": "liceo-malaquias-concha",
+  "name": "study-manager-bot",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
